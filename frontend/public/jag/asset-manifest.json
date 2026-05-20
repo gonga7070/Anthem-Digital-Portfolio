@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/jag/static/css/main.803739b7.css",
+    "main.js": "/jag/static/js/main.b194047c.js",
+    "index.html": "/jag/index.html",
+    "main.803739b7.css.map": "/jag/static/css/main.803739b7.css.map",
+    "main.b194047c.js.map": "/jag/static/js/main.b194047c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.803739b7.css",
+    "static/js/main.b194047c.js"
+  ]
+}

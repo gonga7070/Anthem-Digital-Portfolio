@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/bluehaven/static/css/main.14c68758.css",
+    "main.js": "/bluehaven/static/js/main.10ede39f.js",
+    "index.html": "/bluehaven/index.html",
+    "main.14c68758.css.map": "/bluehaven/static/css/main.14c68758.css.map",
+    "main.10ede39f.js.map": "/bluehaven/static/js/main.10ede39f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.14c68758.css",
+    "static/js/main.10ede39f.js"
+  ]
+}

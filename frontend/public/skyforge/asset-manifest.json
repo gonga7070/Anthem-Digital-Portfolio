@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/skyforge/static/css/main.09c6c78f.css",
+    "main.js": "/skyforge/static/js/main.0af09af3.js",
+    "index.html": "/skyforge/index.html",
+    "main.09c6c78f.css.map": "/skyforge/static/css/main.09c6c78f.css.map",
+    "main.0af09af3.js.map": "/skyforge/static/js/main.0af09af3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.09c6c78f.css",
+    "static/js/main.0af09af3.js"
+  ]
+}
