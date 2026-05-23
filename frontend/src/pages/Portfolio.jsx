@@ -4,7 +4,7 @@ import { ArrowUpRight } from "lucide-react";
 import PreviewCard from "../components/PreviewCard";
 
 /**
- * Anthem Digital — Selected Work
+ * Akron Digital — Selected Work
  * Single-page cinematic portfolio for cold outreach.
  * Three live iframe previews stacked in an asymmetric vertical sequence.
  *
@@ -31,7 +31,7 @@ const PROJECTS = [
   },
 ];
 
-const CONTACT_EMAIL = "contact@anthemdigital.ca";
+const CONTACT_EMAIL = "Goncalo@akrondigital.ca";
 const BACKDROP_URL =
   "https://static.prod-images.emergentagent.com/jobs/8c1a93c1-fbf0-4331-9564-21242e177d70/images/76c13ac2a039223de8ed4e5469334325e0b1d3b6d28b0d777e2a066af4e39de0.png";
 const SHARDS_URL =
@@ -113,19 +113,19 @@ const Portfolio = () => {
           <a
             href="/"
             data-testid="header-logo"
-            aria-label="Anthem Digital"
+            aria-label="Akron Digital"
             className="group inline-flex items-center h-10 md:h-12"
           >
             <img
-              src="https://customer-assets.emergentagent.com/job_client-portfolio-24/artifacts/42c8jkrf_Untitled%20design%20%289%29.png"
-              alt="Anthem Digital"
+              src="https://customer-assets.emergentagent.com/job_my-portfolio-887/artifacts/4c1qgkeq_20f4df93-b61c-45dc-a561-02bd7f8001bb.png"
+              alt="Akron Digital"
               className="h-full w-auto object-contain select-none transition-opacity duration-300 group-hover:opacity-90"
               draggable={false}
             />
           </a>
 
           <a
-            href="https://anthemdigital.ca/"
+            href="https://akrondigital.ca/"
             target="_blank"
             rel="noopener noreferrer"
             data-testid="cta-contact-us"
@@ -213,28 +213,14 @@ const Portfolio = () => {
               </p>
               <div className="flex flex-col gap-3 md:gap-4">
                 <a
-                  href="mailto:Goncalo@anthemdigital.ca"
+                  href="mailto:Goncalo@akrondigital.ca"
                   data-testid="footer-email-goncalo"
                   className="group font-display font-black text-white tracking-tight leading-none
                              text-xl sm:text-3xl md:text-5xl break-all
                              inline-flex items-center gap-3 transition-colors duration-300
                              hover:text-[#A06CE0]"
                 >
-                  Goncalo@anthemdigital.ca
-                  <ArrowUpRight
-                    className="shrink-0 opacity-50 group-hover:opacity-100 transition-opacity duration-300"
-                    size={20}
-                  />
-                </a>
-                <a
-                  href="mailto:Adam@anthemdigital.ca"
-                  data-testid="footer-email-adam"
-                  className="group font-display font-black text-white tracking-tight leading-none
-                             text-xl sm:text-3xl md:text-5xl break-all
-                             inline-flex items-center gap-3 transition-colors duration-300
-                             hover:text-[#A06CE0]"
-                >
-                  Adam@anthemdigital.ca
+                  Goncalo@akrondigital.ca
                   <ArrowUpRight
                     className="shrink-0 opacity-50 group-hover:opacity-100 transition-opacity duration-300"
                     size={20}
@@ -244,7 +230,7 @@ const Portfolio = () => {
             </div>
 
             <a
-              href="https://anthemdigital.ca/"
+              href="https://akrondigital.ca/"
               target="_blank"
               rel="noopener noreferrer"
               data-testid="footer-cta"
@@ -259,7 +245,7 @@ const Portfolio = () => {
           </div>
 
           <div className="mt-10 flex flex-col md:flex-row md:items-center md:justify-between gap-4 text-white/35 font-body text-xs">
-            <span>© {new Date().getFullYear()} Anthem Digital. All rights reserved.</span>
+            <span>© {new Date().getFullYear()} Akron Digital. All rights reserved.</span>
             <span className="tracking-[0.25em] uppercase">
               Crafted in the dark — designed for the spotlight.
             </span>

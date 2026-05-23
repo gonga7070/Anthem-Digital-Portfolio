@@ -219,7 +219,7 @@ const PreviewCard = ({ index, name, subtitle, url, align = "left" }) => {
                 {url}
               </div>
               <span className="font-display text-[10px] tracking-[0.3em] uppercase text-[#A06CE0]/80">
-                Anthem
+                Akron
               </span>
             </div>
 
