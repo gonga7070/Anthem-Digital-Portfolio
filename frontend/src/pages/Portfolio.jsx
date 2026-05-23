@@ -114,12 +114,12 @@ const Portfolio = () => {
             href="/"
             data-testid="header-logo"
             aria-label="Akron Digital"
-            className="group inline-flex items-center h-10 md:h-12"
+            className="group inline-flex items-center h-20 md:h-24"
           >
             <img
               src="https://customer-assets.emergentagent.com/job_my-portfolio-887/artifacts/4c1qgkeq_20f4df93-b61c-45dc-a561-02bd7f8001bb.png"
               alt="Akron Digital"
-              className="h-full w-auto object-contain select-none transition-opacity duration-300 group-hover:opacity-90"
+              className="h-[180%] w-auto object-contain select-none transition-opacity duration-300 group-hover:opacity-90 -my-6"
               draggable={false}
             />
           </a>
