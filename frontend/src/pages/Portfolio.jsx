@@ -88,7 +88,7 @@ const Portfolio = () => {
                    blur-2xl will-change-transform mix-blend-screen opacity-40"
         style={{
           background:
-            "radial-gradient(circle at center, rgba(123,44,191,0.28) 0%, rgba(123,44,191,0.10) 40%, rgba(123,44,191,0) 70%)",
+            "radial-gradient(circle at center, rgba(30,58,138,0.28) 0%, rgba(30,58,138,0.10) 40%, rgba(30,58,138,0) 70%)",
         }}
       />
 
@@ -133,7 +133,7 @@ const Portfolio = () => {
                        bg-white text-black font-display font-bold tracking-tight
                        text-xs md:text-sm px-5 md:px-6
                        transition-all duration-300
-                       hover:bg-[#7B2CBF] hover:text-white hover:shadow-[0_0_40px_-8px_rgba(123,44,191,0.8)]"
+                       hover:bg-[#1E3A8A] hover:text-white hover:shadow-[0_0_40px_-8px_rgba(30,58,138,0.8)]"
           >
             Contact us
             <ArrowUpRight
@@ -178,7 +178,7 @@ const Portfolio = () => {
                      md:whitespace-nowrap"
           style={{ fontSize: "clamp(1.5rem, 4.2vw, 3.75rem)" }}
         >
-          Designed in silence<span className="text-[#A06CE0]">.</span>
+          Designed in silence<span className="text-[#6B8AC4]">.</span>
           <span className="italic font-medium text-white/55"> Built to be remembered.</span>
         </motion.h1>
       </section>
@@ -218,7 +218,7 @@ const Portfolio = () => {
                   className="group font-display font-black text-white tracking-tight leading-none
                              text-xl sm:text-3xl md:text-5xl break-all
                              inline-flex items-center gap-3 transition-colors duration-300
-                             hover:text-[#A06CE0]"
+                             hover:text-[#6B8AC4]"
                 >
                   Goncalo@akrondigital.ca
                   <ArrowUpRight
@@ -238,7 +238,7 @@ const Portfolio = () => {
                          border border-white/15 bg-black/40 backdrop-blur
                          px-5 py-3 font-display text-xs tracking-[0.25em] uppercase text-white/80
                          transition-all duration-300
-                         hover:border-[#7B2CBF]/60 hover:text-white hover:shadow-[0_0_40px_-8px_rgba(123,44,191,0.6)]"
+                         hover:border-[#1E3A8A]/60 hover:text-white hover:shadow-[0_0_40px_-8px_rgba(30,58,138,0.6)]"
             >
               Contact us <ArrowUpRight size={14} />
             </a>
