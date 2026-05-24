@@ -225,6 +225,20 @@ const Portfolio = () => {
                     size={20}
                   />
                 </a>
+                <a
+                  href="mailto:Adam@anthemdigital.ca"
+                  data-testid="footer-email-adam"
+                  className="group font-display font-black text-white tracking-tight leading-none
+                             text-xl sm:text-3xl md:text-5xl break-all
+                             inline-flex items-center gap-3 transition-colors duration-300
+                             hover:text-[#A78BFA]"
+                >
+                  Adam@anthemdigital.ca
+                  <ArrowUpRight
+                    className="shrink-0 opacity-50 group-hover:opacity-100 transition-opacity duration-300"
+                    size={20}
+                  />
+                </a>
               </div>
             </div>
 
