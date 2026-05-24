@@ -114,7 +114,7 @@ const Portfolio = () => {
             href="/"
             data-testid="header-logo"
             aria-label="Anthem Digital"
-            className="group inline-flex items-center h-20 md:h-24 -ml-4 md:-ml-10 lg:-ml-14"
+            className="group inline-flex items-center h-20 md:h-24 -ml-2 md:-ml-7 lg:-ml-10"
           >
             <img
               src="https://customer-assets.emergentagent.com/job_digital-showcase-137/artifacts/46xxic71_download%20%281%29.png"
