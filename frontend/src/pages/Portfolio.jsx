@@ -116,11 +116,12 @@ const Portfolio = () => {
             aria-label="Anthem Digital"
             className="group inline-flex items-center h-20 md:h-24"
           >
-            <span
-              className="font-display font-black text-white tracking-[-0.04em] text-2xl md:text-3xl select-none transition-opacity duration-300 group-hover:opacity-90"
-            >
-              Anthem<span className="text-[#A78BFA]"> Digital</span>
-            </span>
+            <img
+              src="https://customer-assets.emergentagent.com/job_digital-showcase-137/artifacts/46xxic71_download%20%281%29.png"
+              alt="Anthem Digital"
+              className="h-[150%] w-auto object-contain select-none transition-opacity duration-300 group-hover:opacity-90"
+              draggable={false}
+            />
           </a>
 
           <a
