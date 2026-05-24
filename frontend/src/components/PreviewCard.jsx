@@ -40,7 +40,7 @@ const PreviewCard = ({ index, name, subtitle, url, align = "left" }) => {
       {subtitle && (
         <p
           data-testid={`project-subtitle-${index + 1}`}
-          className="mt-3 md:mt-4 font-display font-medium tracking-tight text-[#6B8AC4]
+          className="mt-3 md:mt-4 font-display font-medium tracking-tight text-[#A78BFA]
                      text-lg sm:text-xl md:text-2xl lg:text-3xl"
         >
           {subtitle}
@@ -51,7 +51,7 @@ const PreviewCard = ({ index, name, subtitle, url, align = "left" }) => {
           centered ? "justify-center" : ""
         }`}
       >
-        <span className="h-1.5 w-1.5 rounded-full bg-[#1E3A8A] shadow-[0_0_12px_2px_rgba(30,58,138,0.7)]" />
+        <span className="h-1.5 w-1.5 rounded-full bg-[#6D28D9] shadow-[0_0_12px_2px_rgba(109,40,217,0.7)]" />
         <span className="font-body text-[10px] sm:text-xs tracking-[0.25em] uppercase text-white/50">
           Live preview
         </span>
@@ -90,13 +90,13 @@ const PreviewCard = ({ index, name, subtitle, url, align = "left" }) => {
           className="relative mx-auto w-full max-w-[300px] aspect-[9/19.5]
                      rounded-[2.75rem] bg-black
                      border border-white/15 overflow-hidden
-                     shadow-[0_30px_80px_-20px_rgba(30,58,138,0.45),0_0_0_2px_rgba(255,255,255,0.04)_inset]"
+                     shadow-[0_30px_80px_-20px_rgba(109,40,217,0.45),0_0_0_2px_rgba(255,255,255,0.04)_inset]"
         >
           {/* Side glow (rendered outside via negative z-index sibling) */}
           <div
             aria-hidden
             className="pointer-events-none absolute -inset-2 rounded-[3rem]
-                       bg-[radial-gradient(60%_50%_at_50%_0%,rgba(30,58,138,0.25),transparent_70%)] -z-10"
+                       bg-[radial-gradient(60%_50%_at_50%_0%,rgba(109,40,217,0.25),transparent_70%)] -z-10"
           />
 
           {/* Inner screen — absolutely positioned inside the bezel padding */}
@@ -168,7 +168,7 @@ const PreviewCard = ({ index, name, subtitle, url, align = "left" }) => {
           className="inline-flex items-center gap-2 rounded-full
                      border border-white/15 bg-black/40 backdrop-blur-md px-4 py-2
                      font-display text-[10px] tracking-[0.25em] uppercase text-white/80
-                     transition-all duration-300 hover:border-[#1E3A8A]/60 hover:text-white"
+                     transition-all duration-300 hover:border-[#6D28D9]/60 hover:text-white"
         >
           Open <ArrowUpRight size={12} />
         </a>
@@ -206,9 +206,9 @@ const PreviewCard = ({ index, name, subtitle, url, align = "left" }) => {
           <div
             data-testid={`preview-frame-${index + 1}`}
             className="group relative rounded-2xl border border-white/10 bg-white/[0.02] overflow-hidden
-                       shadow-[0_30px_80px_-30px_rgba(30,58,138,0.35),0_0_0_1px_rgba(255,255,255,0.04)_inset]
+                       shadow-[0_30px_80px_-30px_rgba(109,40,217,0.35),0_0_0_1px_rgba(255,255,255,0.04)_inset]
                        transition-all duration-500
-                       hover:border-white/20 hover:shadow-[0_40px_120px_-30px_rgba(30,58,138,0.55),0_0_0_1px_rgba(255,255,255,0.08)_inset]"
+                       hover:border-white/20 hover:shadow-[0_40px_120px_-30px_rgba(109,40,217,0.55),0_0_0_1px_rgba(255,255,255,0.08)_inset]"
           >
             {/* Faux browser chrome */}
             <div className="flex items-center gap-2 px-5 py-3 border-b border-white/5 bg-black/40 backdrop-blur-xl">
@@ -218,8 +218,8 @@ const PreviewCard = ({ index, name, subtitle, url, align = "left" }) => {
               <div className="ml-4 flex-1 truncate font-body text-[11px] tracking-wide text-white/35">
                 {url}
               </div>
-              <span className="font-display text-[10px] tracking-[0.3em] uppercase text-[#6B8AC4]/80">
-                Akron
+              <span className="font-display text-[10px] tracking-[0.3em] uppercase text-[#A78BFA]/80">
+                Anthem
               </span>
             </div>
 
@@ -241,7 +241,7 @@ const PreviewCard = ({ index, name, subtitle, url, align = "left" }) => {
               />
               <div className="pointer-events-none absolute inset-0 shadow-[inset_0_0_80px_rgba(0,0,0,0.55)]" />
               <div className="pointer-events-none absolute -inset-px opacity-0 group-hover:opacity-100 transition-opacity duration-700
-                              bg-[radial-gradient(60%_50%_at_100%_0%,rgba(30,58,138,0.25),transparent_60%),radial-gradient(60%_50%_at_0%_100%,rgba(30,58,138,0.18),transparent_60%)]" />
+                              bg-[radial-gradient(60%_50%_at_100%_0%,rgba(109,40,217,0.25),transparent_60%),radial-gradient(60%_50%_at_0%_100%,rgba(109,40,217,0.18),transparent_60%)]" />
             </div>
 
             <a
@@ -253,7 +253,7 @@ const PreviewCard = ({ index, name, subtitle, url, align = "left" }) => {
                          border border-white/10 bg-black/60 backdrop-blur-md px-4 py-2
                          font-display text-[11px] tracking-[0.25em] uppercase text-white/80
                          opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0
-                         transition-all duration-500 hover:border-[#1E3A8A]/60 hover:text-white"
+                         transition-all duration-500 hover:border-[#6D28D9]/60 hover:text-white"
             >
               Open <ArrowUpRight size={14} />
             </a>

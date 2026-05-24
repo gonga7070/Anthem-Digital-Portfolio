@@ -4,7 +4,7 @@ import { ArrowUpRight } from "lucide-react";
 import PreviewCard from "../components/PreviewCard";
 
 /**
- * Akron Digital — Selected Work
+ * Anthem Digital — Selected Work
  * Single-page cinematic portfolio for cold outreach.
  * Three live iframe previews stacked in an asymmetric vertical sequence.
  *
@@ -31,7 +31,7 @@ const PROJECTS = [
   },
 ];
 
-const CONTACT_EMAIL = "Goncalo@akrondigital.ca";
+const CONTACT_EMAIL = "Goncalo@anthemdigital.ca";
 const BACKDROP_URL =
   "https://static.prod-images.emergentagent.com/jobs/8c1a93c1-fbf0-4331-9564-21242e177d70/images/76c13ac2a039223de8ed4e5469334325e0b1d3b6d28b0d777e2a066af4e39de0.png";
 const SHARDS_URL =
@@ -88,7 +88,7 @@ const Portfolio = () => {
                    blur-2xl will-change-transform mix-blend-screen opacity-40"
         style={{
           background:
-            "radial-gradient(circle at center, rgba(30,58,138,0.28) 0%, rgba(30,58,138,0.10) 40%, rgba(30,58,138,0) 70%)",
+            "radial-gradient(circle at center, rgba(109,40,217,0.28) 0%, rgba(109,40,217,0.10) 40%, rgba(109,40,217,0) 70%)",
         }}
       />
 
@@ -113,19 +113,18 @@ const Portfolio = () => {
           <a
             href="/"
             data-testid="header-logo"
-            aria-label="Akron Digital"
+            aria-label="Anthem Digital"
             className="group inline-flex items-center h-20 md:h-24"
           >
-            <img
-              src="https://customer-assets.emergentagent.com/job_my-portfolio-887/artifacts/4c1qgkeq_20f4df93-b61c-45dc-a561-02bd7f8001bb.png"
-              alt="Akron Digital"
-              className="h-[150%] w-auto object-contain select-none transition-opacity duration-300 group-hover:opacity-90"
-              draggable={false}
-            />
+            <span
+              className="font-display font-black text-white tracking-[-0.04em] text-2xl md:text-3xl select-none transition-opacity duration-300 group-hover:opacity-90"
+            >
+              Anthem<span className="text-[#A78BFA]"> Digital</span>
+            </span>
           </a>
 
           <a
-            href="https://akrondigital.ca/"
+            href="https://anthemdigital.ca/"
             target="_blank"
             rel="noopener noreferrer"
             data-testid="cta-contact-us"
@@ -133,7 +132,7 @@ const Portfolio = () => {
                        bg-white text-black font-display font-bold tracking-tight
                        text-xs md:text-sm px-5 md:px-6
                        transition-all duration-300
-                       hover:bg-[#1E3A8A] hover:text-white hover:shadow-[0_0_40px_-8px_rgba(30,58,138,0.8)]"
+                       hover:bg-[#6D28D9] hover:text-white hover:shadow-[0_0_40px_-8px_rgba(109,40,217,0.8)]"
           >
             Contact us
             <ArrowUpRight
@@ -178,7 +177,7 @@ const Portfolio = () => {
                      md:whitespace-nowrap"
           style={{ fontSize: "clamp(1.5rem, 4.2vw, 3.75rem)" }}
         >
-          Designed in silence<span className="text-[#6B8AC4]">.</span>
+          Designed in silence<span className="text-[#A78BFA]">.</span>
           <span className="italic font-medium text-white/55"> Built to be remembered.</span>
         </motion.h1>
       </section>
@@ -213,14 +212,14 @@ const Portfolio = () => {
               </p>
               <div className="flex flex-col gap-3 md:gap-4">
                 <a
-                  href="mailto:Goncalo@akrondigital.ca"
+                  href="mailto:Goncalo@anthemdigital.ca"
                   data-testid="footer-email-goncalo"
                   className="group font-display font-black text-white tracking-tight leading-none
                              text-xl sm:text-3xl md:text-5xl break-all
                              inline-flex items-center gap-3 transition-colors duration-300
-                             hover:text-[#6B8AC4]"
+                             hover:text-[#A78BFA]"
                 >
-                  Goncalo@akrondigital.ca
+                  Goncalo@anthemdigital.ca
                   <ArrowUpRight
                     className="shrink-0 opacity-50 group-hover:opacity-100 transition-opacity duration-300"
                     size={20}
@@ -230,7 +229,7 @@ const Portfolio = () => {
             </div>
 
             <a
-              href="https://akrondigital.ca/"
+              href="https://anthemdigital.ca/"
               target="_blank"
               rel="noopener noreferrer"
               data-testid="footer-cta"
@@ -238,14 +237,14 @@ const Portfolio = () => {
                          border border-white/15 bg-black/40 backdrop-blur
                          px-5 py-3 font-display text-xs tracking-[0.25em] uppercase text-white/80
                          transition-all duration-300
-                         hover:border-[#1E3A8A]/60 hover:text-white hover:shadow-[0_0_40px_-8px_rgba(30,58,138,0.6)]"
+                         hover:border-[#6D28D9]/60 hover:text-white hover:shadow-[0_0_40px_-8px_rgba(109,40,217,0.6)]"
             >
               Contact us <ArrowUpRight size={14} />
             </a>
           </div>
 
           <div className="mt-10 flex flex-col md:flex-row md:items-center md:justify-between gap-4 text-white/35 font-body text-xs">
-            <span>© {new Date().getFullYear()} Akron Digital. All rights reserved.</span>
+            <span>© {new Date().getFullYear()} Anthem Digital. All rights reserved.</span>
             <span className="tracking-[0.25em] uppercase">
               Crafted in the dark — designed for the spotlight.
             </span>

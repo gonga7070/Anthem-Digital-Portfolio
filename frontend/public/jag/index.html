@@ -28,7 +28,7 @@ html::-webkit-scrollbar,body::-webkit-scrollbar,*::-webkit-scrollbar{width:0;hei
     var bar = document.querySelector('div.mt-8.pt-6.border-t.border-stone-800');
     if (!bar) return false;
     if (bar.dataset.akronReplaced === '1') return true;
-    bar.innerHTML = '<p style="text-align:center;font-size:12px;letter-spacing:0.05em;color:#a8a29e;margin:0;padding:8px 0;">\u00A9 ' + new Date().getFullYear() + ' Akron Digital. All rights reserved.</p>';
+    bar.innerHTML = '<p style="text-align:center;font-size:12px;letter-spacing:0.05em;color:#a8a29e;margin:0;padding:8px 0;">\u00A9 ' + new Date().getFullYear() + ' Anthem Digital. All rights reserved.</p>';
     bar.dataset.akronReplaced = '1';
     return true;
   }
